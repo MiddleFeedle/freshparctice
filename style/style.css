@@ -1,0 +1,118 @@
+
+
+.price_list {
+  margin-top: 10px;
+  background-color: #555555;
+  text-align: center;
+  border-collapse: collapse;
+  background: white;
+
+}
+.price_list td, .price_list th {
+  padding: 4px 7px;
+}
+
+.price_list tbody td {
+  font-size: 13px;
+  color: black;
+  height: 40px;
+}
+
+.price_list tr:last-child td:first-child
+{
+  border-radius: 0px 0px 0px 10px;
+}
+
+.price_list tr:first-child td:first-child
+{
+  border-radius: 10px 0px 0px 0px;
+  width: 200px;
+}
+
+.price_list tr:last-child td:last-child
+{
+border-radius: 0px 0px 10px 0px;
+}
+
+.price_list tr td:first-child {
+text-align: left;
+}
+
+.price_list tr td:first-child p
+{
+margin-left: 10px;
+}
+
+.price_list tr:nth-child(even) td:nth-child(even) {
+  background: #E7E7E7;
+}
+
+.price_list tr:nth-child(even) td:nth-child(odd) {
+  background: #DBDBDB;
+}
+
+.price_list tr:nth-child(odd) td:nth-child(odd) {
+  background: #E7E7E7;
+}
+.price_list tr:nth-child(odd) td:nth-child(even) {
+  background: #F3F3F3;
+}
+
+.choose {
+  text-align: center !important;
+  background: #7987AC !important;
+  color: white !important;
+}
+
+.starter {
+  background: #48628D !important;
+  color: white !important;
+}
+.econom {
+  background: #2F4173 !important;
+  color: white !important;
+
+}
+
+.standart { background: #162954 !important;   color: white !important;
+}
+.professional { background: #07293A !important;   color: white !important;
+
+  border-radius: 0px 10px 0px 0px;
+
+}
+
+.cellname
+{
+  width: 130px;
+  background: green;
+  font-weight: bold;
+}
+
+.price { display: flex; justify-content: center; margin-bottom: 5px; padding-bottom: 0px; font-weight: 700; }
+
+.startbutton {
+	background-color:#d3d3d3;
+	border:2px solid #adadad;
+	display:inline-block;
+	cursor:pointer;
+	color:#6e6e6e;
+	font-family:Arial;
+	font-size:10px;
+	font-weight:bold;
+	padding:5px 23px;
+	text-decoration:none;
+}
+.startbutton:hover {
+	background-color:#ffffff;
+}
+.startbutton:hover {
+	background-color:#ffffff;
+  text-decoration: none;
+  color:#6e6e6e;
+
+}
+.startbutton:active {
+	position:relative;
+	top:1px;
+}
